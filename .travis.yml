@@ -7,7 +7,7 @@ script:
   - docker images liu026/node
 
 before_deploy:
- -docker login -u liu026 -p 3670577pL
+  - docker login -u liu026 -p 3670577pL
 
 deploy:
   provider: script
